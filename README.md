@@ -3,6 +3,7 @@ WebEngage Chrome Extension
 
 ## Installation
 Go to `chrome://extensions` page
+
 1. Make sure **Developer mode** is ticked on 
 2. Click on `Load unpacked extension...`
 3. Choose `src` directory inside *downloaded/cloned* code
