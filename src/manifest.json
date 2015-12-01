@@ -1,0 +1,33 @@
+{
+   "name": "WebEngage Chrome Extension",
+   "web_accessible_resources" : ["webengage.js"],
+   "description": "WebEngage Chrome Extension to test WebEngage integration on your site without making a single line code change",
+   "manifest_version": 2,
+   "permissions": [ "webRequest", "webRequestBlocking", "http://*/*", "https://*/*", "*://www.google.com/*", "tabs", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1",
+   "icons": {
+      "19": "images/we_19.png",
+      "16": "images/we_16.png",
+      "32": "images/we_32.png", 
+      "64": "images/we_64.png", 
+      "128": "images/we_128.png"
+   },
+
+   "browser_action": {
+    "default_icon": {         
+      "19": "images/we_19.png",
+      "16": "images/we_16.png",
+      "32": "images/we_32.png", 
+      "64": "images/we_64.png", 
+      "128": "images/we_128.png" 
+    },
+    "default_title": "WebEngage Demo",      // optional; shown in tooltip
+    "default_popup": "popup.html"        // optional
+  },
+
+   "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+   }
+}

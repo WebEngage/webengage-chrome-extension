@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>WebEngage</title>
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <style type="text/css">
+         table {
+            border-collapse: collapse;
+         }
+         table td {
+            padding-left: 10px;
+            text-align: left;
+            vertical-align:center;
+         }
+         tr.empty-row-10px {
+            margin:10px 0px;
+         }
+         tr td.empty-row-5px {
+            border-bottom:5px solid #333;
+            padding:10px 0px;
+         }
+         #licenseCodeInput {
+            margin-top: 10px;
+            margin-bottom: 10px;
+         }
+         #button_add_webengage_script {
+            margin-top: 20px;
+         }
+         #notification_container {
+            color:white;
+            text-align: center;
+            border-top:2px solid #888;
+         }
+         #notification_container #notification_text {
+            display: block;
+            text-align: center;
+            color:#333;
+            margin:4px 0px;
+         }
+         .notification_container_common {
+            display: none;
+            text-align: center;
+            position: fixed;
+            width: 94%;
+         }
+         .notification_type_success {
+            background-color: #5cb85c;
+         }
+         .notification_type_error {
+            background-color: #d9534f;
+         }
+         .notification_type_info {
+            background-color: #5bc0de;
+         }
+         .notification_type_warn {
+            background-color: #f0ad4e;
+         }
+      </style>
+      <!-- JavaScript and HTML must be in separate files for security. -->
+      <script src="js/jquery/jquery-1.11.1.min.js"></script>
+      <script src="popup.js"></script>
+   </head>
+   <body>
+      <div id="container">
+         <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tr class="notification_container_common" id="notification_container">
+               <td>
+                  <span id="notification_text">
+                  </span>
+               </td>
+            </tr>
+            
+            <tr><td>&nbsp;</td></tr>
+
+            <tr>
+               <td>
+                  <span style="color:#333;">Insert custom license code</span>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <input type="text" value="" id="licenseCodeInput" />
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <input type="checkbox" name="checkbox_save_license_code" id="checkbox_save_license_code" value="" checked="checked" />
+                  <label for="checkbox_save_license_code">Enable Auto-Trigger</label>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <input type="button" value="Insert Widgets" id="button_add_webengage_script" class="btn" />
+               </td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>
