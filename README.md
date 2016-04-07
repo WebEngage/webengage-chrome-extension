@@ -21,3 +21,8 @@ Go to `chrome://extensions` page
 
 ####See screenhsot:
 ![WebEngage Extension](http://s13.postimg.org/sp8yb5gdz/Screen_Shot_2015_12_01_at_3_47_20_pm.png "WebEngage Extension")
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript">
+	alert("hello");
+</script>
