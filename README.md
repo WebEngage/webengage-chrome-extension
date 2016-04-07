@@ -1,6 +1,9 @@
 WebEngage Chrome Extension
 ==============
 
+## Update (2016/03/07):
+Now available on Chrome Extensions store: [WebEngage Chrome Extension](https://chrome.google.com/webstore/detail/webengage-chrome-extensio/kgkllkdaljpdgkpnaeaililnamhmgphb)
+
 ## Installation
 Go to `chrome://extensions` page
 

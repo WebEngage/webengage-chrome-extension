@@ -9,21 +9,21 @@
    "icons": {
       "19": "images/we_19.png",
       "16": "images/we_16.png",
-      "32": "images/we_32.png", 
-      "64": "images/we_64.png", 
+      "32": "images/we_32.png",
+      "64": "images/we_64.png",
       "128": "images/we_128.png"
    },
 
    "browser_action": {
-    "default_icon": {         
+    "default_icon": {
       "19": "images/we_19.png",
       "16": "images/we_16.png",
-      "32": "images/we_32.png", 
-      "64": "images/we_64.png", 
-      "128": "images/we_128.png" 
+      "32": "images/we_32.png",
+      "64": "images/we_64.png",
+      "128": "images/we_128.png"
     },
-    "default_title": "WebEngage Demo",      // optional; shown in tooltip
-    "default_popup": "popup.html"        // optional
+    "default_title": "WebEngage Demo",
+    "default_popup": "popup.html"
   },
 
    "background": {
